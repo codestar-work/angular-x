@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-	selector: 'my-app',
+	selector: 'my-component',
 	template: '<h1>Hello {{ name }}</h1>'
 })
-export class AppComponent {
+export class MyComponent {
 	constructor() {
 		this.name = "Mark Zuckerberg"
 	}
-
 }
